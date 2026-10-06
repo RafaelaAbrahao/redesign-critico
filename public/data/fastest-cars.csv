@@ -1,0 +1,9 @@
+rank,car,manufacturer,country,engine_type,top_speed_mph,top_speed_kmh,horsepower_hp,torque_lbft,accel_0_100_kmh_s,price_usd,units_produced
+1,Hennessey Venom F5,Hennessey,USA,Twin-Turbo V8,310.70,500,1817,1193,2.60,1800000,24
+2,Bugatti Chiron Super Sport 300+,Bugatti,France,Quad-Turbo W16,304.77,490.48,1578,1180,2.40,3900000,30
+3,SSC Tuatara,SSC North America,USA,Twin-Turbo V8,300.00,482.8,1750,1322,2.70,1700000,100
+4,Koenigsegg Jesko,Koenigsegg,Sweden,Twin-Turbo V8,300.00,482.8,1600,1106,2.80,2800000,125
+5,Koenigsegg Agera RS,Koenigsegg,Sweden,Twin-Turbo V8,278.00,447.39,1360,1011,2.80,2100000,25
+6,Hennessey Venom GT,Hennessey,USA,Twin-Turbo V8,270.49,435.31,1244,1155,2.70,1250000,13
+7,Bugatti Veyron 16.4 Super Sport,Bugatti,France,Quad-Turbo W16,267.85,431.07,1200,1106,2.50,2000000,30
+8,Rimac C Two,Rimac Automobili,Croatia,Electric (4 motors),258.00,415,1914,1696,1.97,2100000,150
