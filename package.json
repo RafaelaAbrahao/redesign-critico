@@ -1,0 +1,30 @@
+{
+  "name": "redesign-critico",
+  "version": "1.0.0",
+  "description": "Redesign de gráficos com D3 com o objetivo de melhor a visualização de dados",
+  "homepage": "https://github.com/RafaelaAbrahao/redesign-critico#readme",
+  "bugs": {
+    "url": "https://github.com/RafaelaAbrahao/redesign-critico/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelaAbrahao/redesign-critico.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "vite.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "@duckdb/duckdb-wasm": "^1.29.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true
+  }
+}
