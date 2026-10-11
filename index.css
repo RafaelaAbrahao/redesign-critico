@@ -1,0 +1,146 @@
+:root {
+    --paper: #f5f1e8;
+    --ink: #1b1a17;
+    --muted: #6c675d;
+    --rule: #d9d2c3;
+    --accent: #8c2f23;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    padding: 48px 20px;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header,
+.caso {
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Cabeçalho */
+header { margin-bottom: 8px; }
+
+.kicker {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    color: var(--accent);
+    margin: 0 0 4px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.35em;
+}
+
+header p {
+    color: var(--muted);
+    max-width: 62ch;
+    margin: 0;
+}
+
+hr.rule {
+    border: none;
+    border-top: 2px solid var(--ink);
+    margin: 16px auto 0;
+    max-width: 860px;
+}
+
+/* Caso */
+.caso { margin-top: 40px; }
+
+.caso h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.fonte {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin: 0.3em 0 0;
+}
+
+.fonte a { color: var(--accent); }
+
+/* Painéis: um embaixo do outro, separados por fio fino */
+.painel {
+    margin: 0;
+    padding-top: 22px;
+    margin-top: 28px;
+    border-top: 1px solid var(--rule);
+}
+
+.cap {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    margin: 0 0 10px;
+}
+
+.cap .fig {
+    font-variant: small-caps;
+    letter-spacing: 0.03em;
+    color: var(--accent);
+    font-weight: 700;
+    margin-right: 0.5em;
+}
+
+.cap .sub {
+    color: var(--muted);
+    font-style: italic;
+    font-size: 0.95rem;
+}
+
+.painel img,
+.painel svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    border: 1px solid var(--rule);
+}
+
+.painel svg { height: 440px; }
+
+/* Legenda de cores */
+.legenda {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: var(--muted);
+}
+
+.legenda span {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.legenda i {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+
+/* Eixos, grid e rótulos dos gráficos */
+.axis text { font-size: 11px; fill: var(--muted); }
+.axis path,
+.axis line { stroke: #c9c2b4; }
+
+.grid line { stroke: #e7e1d4; }
+.grid path { display: none; }
+
+.bar-val { font-size: 11px; fill: #3a362f; }
+.label { font-size: 12px; fill: #3a362f; }
