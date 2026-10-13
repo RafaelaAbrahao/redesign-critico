@@ -44,4 +44,4 @@ redesign-critico/
 
 1. **Fastest Cars In The World (As Of 2026)** — Makeover Monday 2026/W11 (implementado).
 2. *(a definir — colega)*
-3. *(a definir — colega)*
+3. **AI Workslop** — Makeover Monday 2026/W13
