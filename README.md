@@ -26,22 +26,24 @@ são desenhados automaticamente ao carregar a página.
 
 ```
 redesign-critico/
-├── index.html          # página: título geral + uma seção por caso
-├── index.css           # estilo
-├── vite.config.js      # publicDir = public/
-├── package.json        # d3 + @duckdb/duckdb-wasm + vite
+├── index.html                  # página: título geral + uma seção por caso
+├── index.css                   # estilo
+├── vite.config.js              # publicDir = public/
+├── package.json                # d3 + @duckdb/duckdb-wasm + vite
 ├── public/
-│   ├── data/           # CSVs dos casos (ex.: fastest-cars.csv)
-│   └── img/            # imagens dos originais (ex.: fastest-cars-original.png)
+│   ├── data/                   # CSVs dos casos (ex.: fastest-cars.csv)
+│   └── img/                    # imagens dos originais (ex.: fastest-cars-original.png)
 └── src/
-    ├── config.js       # inicialização do DuckDB-wasm
-    ├── db.js           # classe Dados (init / loadCSV / query)
-    ├── main.js         # carrega os dados e desenha cada caso
-    └── fastest-cars.js # caso 1: SQL (DuckDB) + Design A e Design B (D3)
+    ├── config.js               # inicialização do DuckDB-wasm
+    ├── db.js                   # classe Dados (init / loadCSV / query)
+    ├── main.js                 # carrega os dados e desenha cada caso
+    ├── fastest-cars.js         # caso 1: SQL (DuckDB) + Design A e Design B (D3)
+    ├── deadliest-animals.js    # caso 2: SQL (DuckDB) + Design A e Design B (D3)
+    └── workslop.js             # caso 3: SQL (DuckDB) + Design A e Design B (D3)
 ```
 
 ## Casos
 
 1. **Fastest Cars In The World (As Of 2026)** — Makeover Monday 2026/W11 (implementado).
-2. *(a definir — colega)*
-3. **AI Workslop** — Makeover Monday 2026/W13
+2. **What are the world's deadliest animals** — Makeover Monday 2026/W37 (implementado).
+3. **AI Workslop** — Makeover Monday 2026/W13 (implementado).
