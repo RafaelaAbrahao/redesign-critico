@@ -59,7 +59,7 @@ function desenhaBarras(data) {
 
     const y = d3.scaleBand()
         .domain(data.map(d => d.car))
-        .range([0, altura])
+        .range([0, largura])
         .padding(0.22);
 
     const x = d3.scaleLinear()
